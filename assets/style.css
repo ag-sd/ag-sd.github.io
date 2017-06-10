@@ -19,7 +19,12 @@ h2 {
 h1.title {
     color: #EAD5B0;
     padding-top: 1em;
-    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    h1.title {
+        font-size:14px;
+    }
 }
 
 .fixed-nav-bar {
