@@ -1,7 +1,7 @@
 
 body,html {
     background:#FDF9EB;
-    padding-top: 7em;
+    padding-top: 7rem;
     background-image: url("compress90.jpg");
 }
 
@@ -19,7 +19,26 @@ h2 {
 h1.title {
     color: #EAD5B0;
     padding-top: 1em;
-    font-size: 2vw;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 544px) {
+  h1.title {font-size:2.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1.title {font-size:3rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1.title {font-size:3.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1.title {font-size:4rem;} /*1rem = 16px*/    
 }
 
 .fixed-nav-bar {
@@ -40,7 +59,16 @@ h1.title {
     display: inline;
     list-style-type: none;
     padding-right: 2em;
-    font-size: 0.9vw;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 544px) {
+  .navlist li {font-size:1.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .navlist li {font-size:1.7rem;} /*1rem = 16px*/
 }
 
 .navlist a {
