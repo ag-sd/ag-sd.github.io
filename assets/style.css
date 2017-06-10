@@ -1,0 +1,56 @@
+
+body,html {
+    background:#FDF9EB;
+    padding-top: 7em;
+    background-image: url("compress90.jpg");
+}
+
+
+td.left-item {
+    border-right: 1px solid #E8C78F;
+    border-top: none;
+}
+
+h2 {
+    border-bottom: 2px solid #E8C78F;
+    padding-top: 0.3em;
+}
+
+h1.title {
+    color: #EAD5B0;
+    padding-top: 1em;
+    font-weight: 700;
+}
+
+.fixed-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #0C1131;
+    border-bottom: 5px solid #E8C78F;
+    padding-bottom: 1px;
+    background-image: url("top_top.jpg");
+    background-repeat: repeat-x;
+    background-position: top; 
+}
+
+.navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 2em;
+    font-size: 1.3em;
+}
+
+.navlist a {
+    color: #D1291C;
+}
+
+.main-icon-shift {
+    padding-right: 0.5em;
+}
+
+.header-top {
+    padding-top:-10px;
+}

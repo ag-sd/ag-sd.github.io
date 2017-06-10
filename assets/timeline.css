@@ -1,0 +1,36 @@
+.timeline-time {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.timeline-title {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.timeline-item {
+  padding-bottom: 1.5em;
+  border-left: 2px solid #E8C78F;
+}
+
+.timeline-item::after {
+  width: 16px;
+  height: 16px;
+  display: block;
+  top: 0.8rem;
+  position: absolute;
+  left: -9px;
+  border-radius: 16px;
+  content: '';
+  border: 1px solid #E8C78F;
+  background: #E8C78F;
+}
+
+.last-child {
+  border-image: linear-gradient(to bottom, #E8C78F 60%, transparent) 1 100%;
+}
+
+.offset {
+  padding-top: 1em;
+}
